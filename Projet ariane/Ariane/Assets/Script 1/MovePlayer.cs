@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MovePlayer : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class MovePlayer : MonoBehaviour
 
     private bool isJumping;
     private bool isGrounded;
+
+
     
 
     public Transform GroundCheck;
@@ -73,4 +76,6 @@ public class MovePlayer : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(GroundCheck.position, groundCheckradius);
     }
+
+
 }

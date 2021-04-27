@@ -9,9 +9,12 @@ public class healthbar : MonoBehaviour
     public Color goodColor;
     public Color middleColor;
     public Color badColor;
+    public float maxHealth = 1f;
+    public float currentHealth;
 
     private void Start()
     {
+        currentHealth = maxHealth;
         setColor(1);
     }
     public void SetDammages(float value)
@@ -35,5 +38,6 @@ public class healthbar : MonoBehaviour
         {
             healthBar.transform.Find("mask").Find("sprite").GetComponent<Image>().color = badColor;
         }
+        
     }
 }

@@ -29,4 +29,13 @@ public class Enemypatrouille : MonoBehaviour
             graphics.flipX = !graphics.flipX;
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.CompareTag("Player"))
+        {
+            healthbar healthbar = collision.transform.GetComponent<healthbar>();
+            healthbar.SetDammages(0.1f);
+            Debug.Log("aie");
+        }
+    }
 }
