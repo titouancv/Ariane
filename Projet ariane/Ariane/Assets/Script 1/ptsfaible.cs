@@ -8,7 +8,7 @@ public class ptsfaible : MonoBehaviour
     {
         if (collision.CompareTag("Player"))//vérifier si le player rentre en collision
         {
-            Destroy(objectToDestroy);
+            Destroy(objectToDestroy);//détruire de monstre
         }
     }
 }
