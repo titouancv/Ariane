@@ -29,7 +29,7 @@ public class MovePlayer : MonoBehaviour
     void Update() //uptade réservé à tout ce qui n'est pas physique
     {
  
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump") && isGrounded) //pour savoir si le jouer veut sauter et si il est au sol
         {
             isJumping = true;
         }
@@ -42,7 +42,7 @@ public class MovePlayer : MonoBehaviour
     void FixedUpdate() //update réservé à physique
     {
         horizontalMouvement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime; //mouvement horizontal au fil du temps
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer);
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer); // pour checker si le joueur est au sol
         Movejoueur(horizontalMouvement); //déplacement du joueur
 
     }

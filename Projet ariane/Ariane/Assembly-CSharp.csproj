@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script 1\PauseMenu.cs" />
     <Compile Include="Assets\Script scene\changeScene.cs" />
     <Compile Include="Assets\Script 1\ptsfaible.cs" />
+    <Compile Include="Assets\Script 1\healthbar.cs" />
     <Compile Include="Assets\Script 1\MovePlayer.cs" />
     <Compile Include="Assets\Script 1\Enemypatrouille.cs" />
-    <Compile Include="Assets\Script 1\Camerafollow.cs" />
-    <Compile Include="Assets\Script 1\healthbar.cs" />
     <Compile Include="Assets\pauseMenu.cs" />
-    <Compile Include="Assets\Script 1\PauseMenu.cs" />
+    <Compile Include="Assets\Script 1\Camerafollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
