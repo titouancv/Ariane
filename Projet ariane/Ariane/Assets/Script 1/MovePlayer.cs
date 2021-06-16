@@ -6,13 +6,17 @@ public class MovePlayer : MonoBehaviour
 {
     public float moveSpeed; //vitesse de déplacement
     public float jumpForce; //force de saut
+    
     private float horizontalMouvement;
+    private float verticalMouvement;
+
     public float groundCheckradius;
     public LayerMask collisionlayer;
 
 
     private bool isJumping;
     private bool isGrounded;
+    public bool isClimbing;
 
 
     
@@ -42,20 +46,31 @@ public class MovePlayer : MonoBehaviour
     void FixedUpdate() //update réservé à physique
     {
         horizontalMouvement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime; //mouvement horizontal au fil du temps
+        verticalMouvement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer); // pour checker si le joueur est au sol
-        Movejoueur(horizontalMouvement); //déplacement du joueur
+        Movejoueur(horizontalMouvement,verticalMouvement); //déplacement du joueur
 
     }
 
-    void Movejoueur(float _horizontalMouvement)
+    void Movejoueur(float _horizontalMouvement,float _verticalMouvement)
     {
-        Vector3 targetVelocity = new Vector2(_horizontalMouvement, rb.velocity.y); //calcul de la vélocité du perso
-        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity,.05f);
-
-        if(isJumping == true)
+        if (!isClimbing)
         {
-            rb.AddForce(new Vector2(0f, jumpForce));
-            isJumping = false;
+            Vector3 targetVelocity = new Vector2(_horizontalMouvement, rb.velocity.y); //calcul de la vélocité du perso
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+
+            if (isJumping == true)
+            {
+                rb.AddForce(new Vector2(0f, jumpForce));
+                isJumping = false;
+            }
+        }
+        else
+        {
+            //déplacement à la verticale
+            Vector3 targetVelocity = new Vector2(0, _verticalMouvement); 
+            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
         }
     }
 
