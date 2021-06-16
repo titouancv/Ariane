@@ -6,7 +6,7 @@ public class Ladder : MonoBehaviour
 {
     private bool isInRange;
     private MovePlayer movePlayer;
-    public BoxCollider2D collider;
+    public BoxCollider2D topcollider;
 
     // Start is called before the first frame update
     void Awake()
@@ -17,17 +17,17 @@ public class Ladder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (movePlayer.isClimbing && Input.GetKeyDown(KeyCode.E))
+        if (isInRange && movePlayer.isClimbing && Input.GetKeyDown(KeyCode.E))
         {
             //descendre de l'échelle
             movePlayer.isClimbing = false;
-            collider.isTrigger = false;
+            topcollider.isTrigger = false;
             return;
         }
         if(isInRange && Input.GetKeyDown(KeyCode.E))
         {
             movePlayer.isClimbing = true;
-            collider.isTrigger = true;
+            topcollider.isTrigger = true;
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -43,7 +43,7 @@ public class Ladder : MonoBehaviour
         {
             isInRange = false;
             movePlayer.isClimbing = false;
-            collider.isTrigger = false;
+            topcollider.isTrigger = false;
         }
     }
 }
