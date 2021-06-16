@@ -61,6 +61,7 @@
     <Compile Include="Assets\Script scene\changeScene.cs" />
     <Compile Include="Assets\Script 1\ptsfaible.cs" />
     <Compile Include="Assets\Script 1\healthbar.cs" />
+    <Compile Include="Assets\Chest.cs" />
     <Compile Include="Assets\Script 1\MovePlayer.cs" />
     <Compile Include="Assets\Script 1\Enemypatrouille.cs" />
     <Compile Include="Assets\pauseMenu.cs" />
