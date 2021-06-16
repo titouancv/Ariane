@@ -43,12 +43,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 947
   m_MinSize: {x: 644, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
   controlID: 118
+=======
+    width: 1522
+    height: 716
+  m_MinSize: {x: 676, y: 492}
+  m_MaxSize: {x: 14001, y: 14042}
+  vertical: 0
+  controlID: 95
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -66,11 +75,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1014
     y: 0
+<<<<<<< HEAD
     width: 906
     height: 947
   m_MinSize: {x: 241, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
+=======
+    width: 308
+    height: 716
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 14}
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
   m_Panes:
   - {fileID: 15}
   - {fileID: 12}
@@ -93,11 +110,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 254
     height: 573
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
+=======
+    width: 301
+    height: 433
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 15}
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
   m_Panes:
   - {fileID: 16}
   m_Selected: 0
@@ -149,8 +174,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1920
     height: 997
+=======
+    width: 1522
+    height: 766
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
@@ -215,12 +245,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1014
     height: 947
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
   controlID: 58
+=======
+    width: 1214
+    height: 716
+  m_MinSize: {x: 401, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
+  vertical: 1
+  controlID: 96
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -240,12 +279,21 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1014
     height: 573
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
   controlID: 59
+=======
+    width: 1214
+    height: 433
+  m_MinSize: {x: 401, y: 221}
+  m_MaxSize: {x: 8001, y: 4021}
+  vertical: 0
+  controlID: 97
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -376,6 +424,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Palette2
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
   m_LastProjectPath: C:\Users\Claude\Desktop\Ariane\Projet ariane\Ariane
   m_LockTracker:
     m_IsLocked: 0
@@ -384,6 +433,16 @@ MonoBehaviour:
     m_SelectedIDs: ec5c0000
     m_LastClickedID: 23788
     m_ExpandedIDs: 00000000e85c000000ca9a3b
+=======
+  m_LastProjectPath: C:\Users\leoha\OneDrive\Bureau\Ariane\Projet ariane\Ariane
+  m_LockTracker:
+    m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 66}
+    m_SelectedIDs: c4410000
+    m_LastClickedID: 16836
+    m_ExpandedIDs: 00000000c441000000ca9a3b
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -411,7 +470,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 
+=======
+    m_ExpandedIDs: 00000000c4410000
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -536,7 +599,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 08b8ffff76b8ffff54b9ffff
+=======
+      m_ExpandedIDs: 26fbffff
+>>>>>>> d7a9fb5bf27595ce8e875ef8cb16110bd3ec8ac4
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
