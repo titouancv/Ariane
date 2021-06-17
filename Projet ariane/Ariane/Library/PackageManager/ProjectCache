@@ -1,31 +1,31 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/titou/Documents/EPITA/Projet S2/Ariane/Projet ariane/Ariane/Packages/manifest.json
+    m_FilePath: C:/Users/leoha/OneDrive/Bureau/Soutenenace 2/Projet ariane/Ariane/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637595393581891217
-    m_Hash: 1904091983
+      ticks: 637549804421089564
+    m_Hash: 127026619
   m_LockFileStatus:
-    m_FilePath: C:/Users/titou/Documents/EPITA/Projet S2/Ariane/Projet ariane/Ariane/Packages/packages-lock.json
+    m_FilePath: C:/Users/leoha/OneDrive/Bureau/Soutenenace 2/Projet ariane/Ariane/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637595394240212294
-    m_Hash: 916992258
+      ticks: 637549804435667449
+    m_Hash: 4047100667
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.2d.animation@6.0.1
+    - packageId: com.unity.2d.animation@5.0.4
       testable: 0
       isDirectDependency: 1
-      version: 6.0.1
+      version: 5.0.4
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.animation@6.0.1
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.animation@5.0.4
       assetPath: Packages/com.unity.2d.animation
       name: com.unity.2d.animation
       displayName: 2D Animation
@@ -35,12 +35,8 @@ m_PackageAssets:
         url: 
       category: 2D
       type: 
-      description: '2D Animation provides all the necessary tooling and runtime components
+      description: 2D Animation provides all the necessary tooling and runtime components
         for skeletal animation using Sprites.
-
-
-        Documentation for v6.0 is
-        currently being updated.'
       status: 4
       errors: []
       versions:
@@ -98,13 +94,12 @@ m_PackageAssets:
         - 5.0.4
         - 6.0.0-pre.1
         - 6.0.0-pre.2
-        - 6.0.1
         compatible:
         - 5.0.4
         verified: 5.0.4
       dependencies:
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.3
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.sprite
@@ -115,7 +110,7 @@ m_PackageAssets:
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.3
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -147,20 +142,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526396800000000
+      datePublishedTicks: 637478931180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 1de540a091021db4de462f30f9a458120ea465ae
+        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
         path: 
-    - packageId: com.unity.2d.pixel-perfect@5.0.0
+    - packageId: com.unity.2d.pixel-perfect@4.0.1
       testable: 0
       isDirectDependency: 1
-      version: 5.0.0
+      version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.0
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.pixel-perfect@4.0.1
       assetPath: Packages/com.unity.2d.pixel-perfect
       name: com.unity.2d.pixel-perfect
       displayName: 2D Pixel Perfect
@@ -198,7 +193,6 @@ m_PackageAssets:
         - 4.0.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
-        - 5.0.0
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -221,20 +215,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526400420000000
+      datePublishedTicks: 637328350910000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+        revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
-    - packageId: com.unity.2d.psdimporter@5.0.1
+    - packageId: com.unity.2d.psdimporter@4.0.2
       testable: 0
       isDirectDependency: 1
-      version: 5.0.1
+      version: 4.0.2
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.psdimporter@5.0.1
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.psdimporter@4.0.2
       assetPath: Packages/com.unity.2d.psdimporter
       name: com.unity.2d.psdimporter
       displayName: 2D PSD Importer
@@ -244,13 +238,10 @@ m_PackageAssets:
         url: 
       category: 2D
       type: 
-      description: 'A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
+      description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop
         Big) file format. The ScriptedImporter is currently targeted for users who
         wants to create multi Sprite character animation using Unity 2D Animation
         Package.
-
-
-        Documentation for v5.0 is currently being updated.'
       status: 4
       errors: []
       versions:
@@ -286,20 +277,19 @@ m_PackageAssets:
         - 4.0.2
         - 5.0.0-pre.1
         - 5.0.0-pre.2
-        - 5.0.1
         compatible:
         - 4.0.2
         verified: 4.0.2
       dependencies:
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.2
       - name: com.unity.2d.animation
-        version: 6.0.1
+        version: 5.0.2
       - name: com.unity.2d.sprite
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.3
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -313,7 +303,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.animation
-        version: 6.0.1
+        version: 5.0.4
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.modules.animation
@@ -334,13 +324,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526398240000000
+      datePublishedTicks: 637366443480000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 1de540a091021db4de462f30f9a458120ea465ae
+        revision: 4e96f68a7587d87b4fee15d6f88a5d86c2afa9aa
         path: 
     - packageId: com.unity.2d.sprite@1.0.0
       testable: 0
@@ -393,12 +383,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.2d.spriteshape@6.0.0
+    - packageId: com.unity.2d.spriteshape@5.1.1
       testable: 0
       isDirectDependency: 1
-      version: 6.0.0
+      version: 5.1.1
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.spriteshape@6.0.0
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.spriteshape@5.1.1
       assetPath: Packages/com.unity.2d.spriteshape
       name: com.unity.2d.spriteshape
       displayName: 2D SpriteShape
@@ -462,7 +452,6 @@ m_PackageAssets:
         - 5.1.1
         - 6.0.0-pre.1
         - 6.0.0-pre.2
-        - 6.0.0
         compatible:
         - 5.1.1
         verified: 5.1.1
@@ -470,16 +459,16 @@ m_PackageAssets:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.3
       - name: com.unity.2d.path
-        version: 5.0.0
+        version: 4.0.1
       - name: com.unity.modules.physics2d
         version: 1.0.0
       resolvedDependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.2d.common
-        version: 5.0.0
+        version: 4.0.3
       - name: com.unity.2d.sprite
         version: 1.0.0
       - name: com.unity.modules.uielements
@@ -493,7 +482,7 @@ m_PackageAssets:
       - name: com.unity.modules.uielementsnative
         version: 1.0.0
       - name: com.unity.2d.path
-        version: 5.0.0
+        version: 4.0.1
       - name: com.unity.modules.physics2d
         version: 1.0.0
       keywords:
@@ -515,13 +504,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526400040000000
+      datePublishedTicks: 637478930260000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+        revision: 3cf59035d02a34d40d678f2cd5f1c65515a8347e
         path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
@@ -578,7 +567,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.3.9
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.collab-proxy@1.3.9
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.collab-proxy@1.3.9
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Unity Collaborate
@@ -668,12 +657,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
         revision: fa825106f349f996acff22f718845eab46ca2d7c
         path: 
-    - packageId: com.unity.ide.rider@3.0.5
+    - packageId: com.unity.ide.rider@2.0.7
       testable: 0
       isDirectDependency: 1
-      version: 3.0.5
+      version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.rider@3.0.5
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -712,8 +701,6 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
-        - 3.0.5
-        - 3.0.6
         compatible:
         - 1.0.2
         - 1.0.6
@@ -737,11 +724,19 @@ m_PackageAssets:
         - 3.0.2
         - 3.0.3
         - 3.0.4
-        - 3.0.5
-        - 3.0.6
         verified: 2.0.7
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.1
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.24
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
       keywords: []
       registry:
         id: main
@@ -755,20 +750,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637502896060000000
+      datePublishedTicks: 637334461080000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-        revision: c84d2b08574326cd1e40dcae5378c556c6aecad8
+        revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
     - packageId: com.unity.ide.visualstudio@2.0.7
       testable: 0
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.visualstudio@2.0.7
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -785,30 +780,8 @@ m_PackageAssets:
       errors: []
       versions:
         all:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
         compatible:
-        - 1.0.2
-        - 1.0.3
-        - 1.0.4
-        - 1.0.9
-        - 1.0.10
-        - 1.0.11
-        - 2.0.0
-        - 2.0.1
-        - 2.0.2
-        - 2.0.3
-        - 2.0.5
         - 2.0.7
         verified: 2.0.7
       dependencies:
@@ -836,7 +809,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637486638490000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -849,7 +822,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.3
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.ide.vscode@1.2.3
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -918,7 +891,7 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.24
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.test-framework@1.1.24
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.test-framework@1.1.24
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -993,20 +966,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637505702940000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: e6fe8892689398c0d9aba4587e0ba69edc3d82b8
         path: 
-    - packageId: com.unity.textmeshpro@3.0.4
+    - packageId: com.unity.textmeshpro@3.0.1
       testable: 0
       isDirectDependency: 1
-      version: 3.0.4
+      version: 3.0.1
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.textmeshpro@3.0.4
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.textmeshpro@3.0.1
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -1077,8 +1050,6 @@ m_PackageAssets:
         - 1.5.1
         - 1.5.3
         - 1.5.4
-        - 1.5.5
-        - 1.5.6
         - 2.0.0
         - 2.0.1-preview.1
         - 2.0.1
@@ -1098,8 +1069,6 @@ m_PackageAssets:
         - 2.1.1
         - 2.1.3
         - 2.1.4
-        - 2.1.5
-        - 2.1.6
         - 3.0.0-preview.1
         - 3.0.0-preview.3
         - 3.0.0-preview.4
@@ -1115,15 +1084,11 @@ m_PackageAssets:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        - 3.0.5
-        - 3.0.6
         compatible:
         - 3.0.1
         - 3.0.3
         - 3.0.4
-        - 3.0.5
-        - 3.0.6
-        verified: 3.0.6
+        verified: 3.0.4
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -1152,20 +1117,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637492944820000000
+      datePublishedTicks: 637314376320000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-        revision: e2f8dffb26de9a130d5b2140d83891d9a7825330
+        revision: 1604b62e543216408311bcd1355a7a9ca1e65765
         path: 
-    - packageId: com.unity.timeline@1.5.4
+    - packageId: com.unity.timeline@1.4.7
       testable: 0
       isDirectDependency: 1
-      version: 1.5.4
+      version: 1.4.7
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.timeline@1.5.4
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.timeline@1.4.7
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -1236,9 +1201,7 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
-        - 1.5.4
         - 1.6.0-pre.1
-        - 1.6.0-pre.3
         compatible:
         - 1.4.7
         - 1.5.0-pre.2
@@ -1251,9 +1214,7 @@ m_PackageAssets:
         - 1.5.1-pre.2
         - 1.5.1-pre.3
         - 1.5.2
-        - 1.5.4
         - 1.6.0-pre.1
-        - 1.6.0-pre.3
         verified: 1.4.7
       dependencies:
       - name: com.unity.modules.director
@@ -1291,13 +1252,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637510732040000000
+      datePublishedTicks: 0
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-        revision: 7fe777cafcad93e7e44db6bd6a18ed5bd55e781a
+        revision: 66f96ddbbc76f565093e1e5e5d3d322d28acc7d7
         path: 
     - packageId: com.unity.ugui@1.0.0
       testable: 0
@@ -3109,7 +3070,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -3125,8 +3086,18 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         compatible:
+        - 0.1.5-preview
+        - 0.1.6-preview
+        - 0.1.9-preview
+        - 1.0.0
+        - 1.0.5
         - 1.0.6
         verified: 1.0.6
       dependencies: []
@@ -3147,7 +3118,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637429759280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3160,7 +3131,7 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -3176,9 +3147,33 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         compatible:
+        - 0.0.12-preview.2
+        - 0.0.12-preview.5
+        - 0.0.12-preview.8
+        - 0.0.12-preview.10
+        - 0.0.12-preview.11
+        - 0.0.12-preview.13
+        - 0.0.12-preview.17
+        - 0.0.12-preview.19
+        - 0.0.12-preview.20
+        - 1.0.0-preview.1
+        - 1.0.1
+        - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
         verified: 1.2.1
@@ -3198,7 +3193,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 636984649280000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3206,12 +3201,12 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/Unity.Mathematics.git
         revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
-    - packageId: com.unity.2d.common@5.0.0
+    - packageId: com.unity.2d.common@4.0.3
       testable: 0
       isDirectDependency: 0
-      version: 5.0.0
+      version: 4.0.3
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.common@5.0.0
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.common@4.0.3
       assetPath: Packages/com.unity.2d.common
       name: com.unity.2d.common
       displayName: 2D Common
@@ -3245,8 +3240,6 @@ m_PackageAssets:
         - 4.0.3
         - 5.0.0-pre.1
         - 5.0.0-pre.2
-        - 5.0.0
-        - 6.0.0-pre.2
         compatible:
         - 4.0.2
         - 4.0.3
@@ -3283,20 +3276,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526395060000000
+      datePublishedTicks: 637408843940000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+        revision: c97def465b1932276762fc13f4cfee58da99d5e9
         path: 
-    - packageId: com.unity.2d.path@5.0.0
+    - packageId: com.unity.2d.path@4.0.1
       testable: 0
       isDirectDependency: 0
-      version: 5.0.0
+      version: 4.0.1
       source: 1
-      resolvedPath: C:\Users\titou\Documents\EPITA\Projet S2\Ariane\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.path@5.0.0
+      resolvedPath: C:\Users\leoha\OneDrive\Bureau\Soutenenace 2\Projet ariane\Ariane\Library\PackageCache\com.unity.2d.path@4.0.1
       assetPath: Packages/com.unity.2d.path
       name: com.unity.2d.path
       displayName: 2D Path
@@ -3328,7 +3321,6 @@ m_PackageAssets:
         - 4.0.1
         - 5.0.0-pre.1
         - 5.0.0-pre.2
-        - 5.0.0
         compatible:
         - 4.0.1
         verified: 4.0.1
@@ -3349,15 +3341,15 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637526399200000000
+      datePublishedTicks: 637328350450000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/2d.git
-        revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
+        revision: 7d7470f4ca0ea8353d4c9640b3b6ae9d1ebd9c1d
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/titou/Documents/EPITA/Projet S2/Ariane/Projet ariane/Ariane/Packages
+m_ProjectPath: C:/Users/leoha/OneDrive/Bureau/Soutenenace 2/Projet ariane/Ariane/Packages
 m_EditorVersion: 2020.3.5f1 (8095aa901b9b)

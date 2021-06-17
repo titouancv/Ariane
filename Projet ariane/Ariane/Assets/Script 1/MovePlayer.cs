@@ -1,24 +1,17 @@
 
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MovePlayer : MonoBehaviour
 {
     public float moveSpeed; //vitesse de déplacement
     public float jumpForce; //force de saut
-    
     private float horizontalMouvement;
-    private float verticalMouvement;
-
     public float groundCheckradius;
     public LayerMask collisionlayer;
 
 
     private bool isJumping;
     private bool isGrounded;
-    public bool isClimbing;
-
-
     
 
     public Transform GroundCheck;
@@ -33,7 +26,7 @@ public class MovePlayer : MonoBehaviour
     void Update() //uptade réservé à tout ce qui n'est pas physique
     {
  
-        if (Input.GetButtonDown("Jump") && isGrounded) //pour savoir si le joueur veut sauter et si il est au sol
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             isJumping = true;
         }
@@ -46,34 +39,28 @@ public class MovePlayer : MonoBehaviour
     void FixedUpdate() //update réservé à physique
     {
         horizontalMouvement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime; //mouvement horizontal au fil du temps
-        verticalMouvement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
-        
 
-        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer); // pour checker si le joueur est au sol
-        Movejoueur(horizontalMouvement,verticalMouvement); //déplacement du joueur
+
+
+        isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer);
+
+
+
+
+        Movejoueur(horizontalMouvement); //déplacement du joueur
 
     }
 
-    void Movejoueur(float _horizontalMouvement,float _verticalMouvement)
+    void Movejoueur(float _horizontalMouvement)
     {
-        if (!isClimbing)
-        {
-            Vector3 targetVelocity = new Vector2(_horizontalMouvement, rb.velocity.y); //calcul de la vélocité du perso
-            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+        Vector3 targetVelocity = new Vector2(_horizontalMouvement, rb.velocity.y); //calcul de la vélocité du perso
+        rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity,.05f);
 
-            if (isJumping == true)
-            {
-                rb.AddForce(new Vector2(0f, jumpForce));
-                isJumping = false;
-            }
-        }
-        else
+        if(isJumping == true)
         {
-            //déplacement à la verticale
-            Vector3 targetVelocity = new Vector2(0, _verticalMouvement); 
-            rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
+            rb.AddForce(new Vector2(0f, jumpForce));
+            isJumping = false;
         }
-        
     }
 
     void flip(float _velocity) //pour se tourner quand on va a gauche ou a droite
@@ -93,6 +80,4 @@ public class MovePlayer : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(GroundCheck.position, groundCheckradius);
     }
-
-
 }
