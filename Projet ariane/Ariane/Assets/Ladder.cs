@@ -8,14 +8,14 @@ public class Ladder : MonoBehaviour
     private bool isInRange;
     private MovePlayer movePlayer;
     public BoxCollider2D topcollider;
-    private Text interactUI;
+    
 
 
     // Start is called before the first frame update
     void Awake()
     {
         movePlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<MovePlayer>();
-        interactUI = GameObject.FindGameObjectWithTag("InteractUI").GetComponent<Text>();
+        
     }
 
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class Ladder : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             isInRange = true;
-            interactUI.enabled = true;
+            
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

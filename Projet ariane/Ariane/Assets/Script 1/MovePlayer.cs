@@ -33,7 +33,7 @@ public class MovePlayer : MonoBehaviour
     void Update() //uptade réservé à tout ce qui n'est pas physique
     {
  
-        if (Input.GetButtonDown("Jump") && isGrounded) //pour savoir si le jouer veut sauter et si il est au sol
+        if (Input.GetButtonDown("Jump") && isGrounded) //pour savoir si le joueur veut sauter et si il est au sol
         {
             isJumping = true;
         }
@@ -47,6 +47,7 @@ public class MovePlayer : MonoBehaviour
     {
         horizontalMouvement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime; //mouvement horizontal au fil du temps
         verticalMouvement = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
+        
 
         isGrounded = Physics2D.OverlapCircle(GroundCheck.position, groundCheckradius, collisionlayer); // pour checker si le joueur est au sol
         Movejoueur(horizontalMouvement,verticalMouvement); //déplacement du joueur
@@ -72,6 +73,7 @@ public class MovePlayer : MonoBehaviour
             Vector3 targetVelocity = new Vector2(0, _verticalMouvement); 
             rb.velocity = Vector3.SmoothDamp(rb.velocity, targetVelocity, ref velocity, .05f);
         }
+        
     }
 
     void flip(float _velocity) //pour se tourner quand on va a gauche ou a droite
